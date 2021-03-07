@@ -70,7 +70,7 @@ class _TestTextfieldState extends State<TestTextfield> {
   //     ),
   //   );
   // }
-  Widget nameText() {
+  Widget textField() {
     return TextFormField(
       keyboardType: TextInputType.multiline,
       textInputAction: TextInputAction.newline,
@@ -91,9 +91,6 @@ class _TestTextfieldState extends State<TestTextfield> {
       readOnly: true,
       minLines: null,
       maxLines: null,
-
-      // expands: true,
-      // maxLength: 50,
       initialValue: 'Johnson Johnson Johnson Johnson',
       style: TextStyle(
         fontFamily: 'Kanit_Regular',
